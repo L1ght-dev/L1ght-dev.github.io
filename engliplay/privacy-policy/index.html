@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engliplay - Privacy Policy</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+        :root {
+            --primary-color: #4f46e5;
+            --secondary-color: #6366f1;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --accent-border: #e2e8f0;
+        }
+
+        @page {
+            size: A4;
+            margin: 20mm;
+            background-color: #f8fafc;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 40px;
+            background: var(--card-bg);
+            border-radius: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid var(--accent-border);
+        }
+
+        header {
+            border-bottom: 2px solid var(--bg-color);
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 28pt;
+            margin-bottom: 10px;
+            font-weight: 700;
+            letter-spacing: -0.025em;
+        }
+
+        .update-date {
+            color: var(--text-muted);
+            font-size: 11pt;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .intro {
+            font-size: 12pt;
+            color: var(--text-main);
+            margin-bottom: 40px;
+            padding: 20px;
+            background: #f1f5f9;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        section {
+            margin-bottom: 35px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 16pt;
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        h2::before {
+            content: "";
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            background: var(--secondary-color);
+            border-radius: 3px;
+            margin-right: 12px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 11pt;
+            text-align: justify;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 12px;
+            font-size: 11pt;
+        }
+
+        li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--secondary-color);
+            font-weight: bold;
+        }
+
+        .highlight-box {
+            background: #eef2ff;
+            border: 1px solid #c7d2fe;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid var(--accent-border);
+            text-align: center;
+            font-size: 10pt;
+            color: var(--text-muted);
+        }
+
+        .contact-info {
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Engliplay Privacy Policy</h1>
+            <p class="update-date">Last Updated: April 28, 2026</p>
+        </header>
+
+        <div class="intro">
+            Your privacy is extremely important to us. This policy outlines how the Engliplay application handles data and information when you use the app and its services.
+        </div>
+
+        <section>
+            <h2>1. Information Collection and Use</h2>
+            <p>Engliplay is designed to function with the minimum amount of personal data possible:</p>
+            <ul>
+                <li><strong>No Account Registration:</strong> You can use the application without needing to enter an email address or name.</li>
+                <li><strong>Technical Data:</strong> Non-identifying information such as device model and Android version may be collected to ensure proper compatibility with the audio player (ExoPlayer) and web content display (WebView).</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2. Local Storage and User Preferences</h2>
+            <p>The app uses the device's local storage (SharedPreferences) to enhance your experience:</p>
+            <ul>
+                <li><strong>Language Preferences:</strong> Saves your chosen language and interface mode.</li>
+                <li><strong>Personal Dictionary:</strong> Words you "star" are saved locally on your device for later review.</li>
+                <li><strong>Progress Tracking:</strong> Saves lessons or stories you have reached.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. Third-Party Services</h2>
+            <p>The application relies on several external services to provide advanced features:</p>
+            <ul>
+                <li><strong>Google AdMob:</strong> Used for displaying advertisements that support the app's continuity. Google may collect your device's advertising ID to provide relevant ads.</li>
+                <li><strong>Firebase:</strong> Used as a database to fetch story content, links, and text updates in real-time.</li>
+                <li><strong>Translation API (MyMemory):</strong> When you request a translation for a specific word, only that word is sent to the service. This word is not linked to any of your personal data.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. File Management and Content Protection</h2>
+            <p>Since the app provides a download feature for offline listening:</p>
+            <ul>
+                <li><strong>Permissions:</strong> The app requests access to its own storage space to save audio files (MP3) and text files (HTML, SRT).</li>
+                <li><strong>Encryption and Security:</strong> All downloaded files are stored encrypted to ensure content integrity. The app decrypts them instantly in temporary memory (RAM) only during playback; these files do not appear in their original form in the device's file manager.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5. External Links</h2>
+            <p>The application may contain links to external websites or videos. We are not responsible for the privacy policies of those external sites.</p>
+        </section>
+
+        <section>
+            <h2>6. Changes to the Privacy Policy</h2>
+            <p>This policy may be updated from time to time to keep pace with new features in the app. Any changes will be posted on this page.</p>
+        </section>
+
+        <section>
+            <h2>7. Contact Us</h2>
+            <p>If you have any inquiries regarding the privacy policy or how the app handles your data, you can contact the developer via the technical support email provided within the app.</p>
+        </section>
+
+        <footer>
+            <p>© 2026 Engliplay. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+  </html>
+
